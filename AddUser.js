@@ -26,7 +26,7 @@ const User = sequelize.define('user', {
   User.sync({force: true}).then(() => {
     // Table created
     return User.create({
-      firstName: 'Michael',
-      lastName: 'Trans'
+      firstName: 'thomas',
+      lastName: 'Chris'
     });
   });
